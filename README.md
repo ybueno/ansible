@@ -17,5 +17,6 @@ ansible-playbook
 ansible-playbook -i hosts playbook.yml --ask-pass --ask-become-pass
 
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-basic-php-application-using-ansible-on-ubuntu-14-04
+http://www.tecmint.com/use-ansible-playbooks-to-automate-complex-tasks-on-multiple-linux-servers/
 
 
