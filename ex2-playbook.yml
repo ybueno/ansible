@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+   - name: 1. Instalar o Apache
+     apt: name=apache2 state=present
+   - name: 2. Iniciar apache
+     service: name=apache2 state=running enabled=yes
