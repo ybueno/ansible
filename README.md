@@ -9,7 +9,8 @@ ansible-playbook
 
 #estrutura de arquivos
 /app/hosts
-/app/
+/app/playbook.yml
+/app/group_vars/all
 
 
 #executar
