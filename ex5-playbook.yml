@@ -1,0 +1,5 @@
+---
+- name: Atualizar o website - multiplos arquivos
+  copy: src={{ item }} dest=/var/www/html/ mode=0664
+  with_fileglob:
+    - /ansible_dxt/roles/websites/files/*
