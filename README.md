@@ -8,9 +8,9 @@ sudo apt-get install ansible
 ansible-playbook 
 
 #estrutura de arquivos
-/app/hosts
-/app/playbook.yml
-/app/group_vars/all
+/app/hosts  
+/app/playbook.yml  
+/app/group_vars/all  
 
 
 #executar
